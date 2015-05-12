@@ -1,0 +1,535 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLowspeed_inline_ultra_sonic	6	1	0	4	3
+1	__DU0ultra_sonic	5	1	4	4	4
+2	__signed_stack_001grab	6	1	8	4	2
+3	__DU0SetSensorLowspeed_inline_ultra_sonic	5	1	12	4	2
+4	__D0ultra_sonic	6	1	16	4	13
+5	__D0grab	6	1	20	4	7
+6	__RLSBmutex3	9	0	24	4	2
+7	__D0RunTasks1	6	1	28	4	3
+8	__D0move	6	1	32	4	7
+9	__constValf4P65	10	0	36	4	2
+10	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	40	4	2
+11	__Wait_7qG2_ms_7qG2_000_inline_ultra_sonic	5	1	44	4	2
+12	__Wait_7qG2_ms_7qG2_000_inline_grab	5	1	48	4	2
+13	motors_a_b_c	9	0	52	4	4
+14	__signed_stack_001RunTasks1	6	1	56	4	2
+15	__signed_stack_001move	6	1	60	4	2
+16	__signed_stack_002ultra_sonic	6	1	64	4	4
+17	__signed_stack_001ultra_sonic	6	1	68	4	8
+18	__CLSCSMutex3	9	0	72	4	2
+19	__ResetSensorMutex	9	0	76	4	2
+20	__TextOutMutex	9	0	80	4	4
+21	__CLSRMutex3	9	0	84	4	2
+22	__CLSWMutex3	9	0	88	4	2
+23	__move_7qG2_nocms_7qG2_000	4	1	92	2	3
+24	sensor	4	0	94	2	3
+25	__move_7qG2_speed_7qG2_000	4	1	96	2	3
+26	__ultra_sonic_7qG2_ultra_7qG2_000	4	1	98	2	5
+27	__ultra_sonic_7qG2_hello_thr_7qG2_000	4	1	100	2	2
+28	__ultra_sonic_7qG2_bye_thr_7qG2_000	4	1	102	2	2
+29	__grab_7qG2_i_7qG2_000	4	1	104	2	4
+30	__move_7qG2_i_7qG2_000	4	1	106	2	4
+31	__grab_7qG2_dost_7qG2_000	4	1	108	2	3
+32	__grab_7qG2_speed_7qG2_000	4	1	110	2	3
+33	__constVal32	2	0	112	1	16
+34	__grab_return	1	1	113	1	4
+35	____ReadLSBytes3_return	1	1	114	1	3
+36	__constVal15	2	0	115	1	3
+37	__constVal2	2	0	116	1	2
+38	__constVal63	2	0	117	1	6
+39	__constVal96	2	0	118	1	6
+40	__constVal0	2	1	119	1	27
+41	__RLSBResult3	2	1	120	1	7
+42	__constVal1	2	0	121	1	5
+43	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic	1	1	122	1	2
+44	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic	1	1	123	1	2
+45	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic	1	1	124	1	2
+46	__constValNeg70	2	0	125	1	1
+47	__constValNeg40	2	0	126	1	1
+48	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_ultra_sonic	1	1	127	1	4
+49	__ultra_sonic_7qG2_near_7qG2_000	1	1	128	1	6
+50	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_ultra_sonic	1	1	129	1	2
+51	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic	1	1	130	1	2
+52	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic	1	1	131	1	2
+53	____ResetSensorSubroutine_return	1	1	132	1	3
+54	__zfSetSensorLowspeed_inline_ultra_sonic	1	1	133	1	2
+55	__ResetSensorPort	1	1	134	1	3
+56	__ResetSensorTmp	1	1	135	1	2
+57	__zfmove	1	1	136	1	3
+58	__zfRunTasks1	1	1	137	1	3
+59	__zfgrab	1	1	138	1	3
+60	__zfultra_sonic	1	1	139	1	12
+61	__constVal3	2	0	140	1	4
+62	__move_return	1	1	141	1	4
+63	__RLSBIterations3	1	1	142	1	4
+64	____initialize_global_data_return	1	1	143	1	3
+65	__RLSBytesCount3	1	1	144	1	7
+66	__PFTmp	1	1	145	1	1
+67	__CLSWArgs3	8	0	4	12	5
+68	__CLSWArgs3.Result	2	1	148	1	5
+69	__CLSWArgs3.Port	1	1	149	1	5
+70	__CLSWArgs3.Buffer	7	0	150	4	5
+71	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+72	__CLSWArgs3.ReturnLen	1	1	152	1	5
+73	__CLSRArgs3	8	0	4	12	5
+74	__CLSRArgs3.Result	2	1	156	1	5
+75	__CLSRArgs3.Port	1	1	157	1	5
+76	__CLSRArgs3.Buffer	7	0	158	4	5
+77	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+78	__CLSRArgs3.BufferLen	1	1	160	1	5
+79	__CLSCSArgs3	8	0	3	4	4
+80	__CLSCSArgs3.Result	2	1	164	1	4
+81	__CLSCSArgs3.Port	1	1	165	1	4
+82	__CLSCSArgs3.BytesReady	1	1	166	1	4
+83	__TextOutArgs	8	0	4	16	12
+84	__TextOutArgs.Result	2	1	168	1	12
+85	__TextOutArgs.Location	8	0	2	4	12
+86	__TextOutArgs.Location.X	4	1	172	2	12
+87	__TextOutArgs.Location.Y	4	1	174	2	12
+88	__TextOutArgs.Text	7	0	176	4	12
+89	__TextOutArgs.Text.Text_type	1	0	0	1	0
+90	__TextOutArgs.Options	5	1	180	4	12
+91	__constStr0010	7	0	184	4	1
+92	__constStr0010.__constStr0010_type	1	1	0	1	0
+93	__OUT_BC	7	0	186	4	2
+94	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+95	__RLSBbufLSWrite1	7	0	188	4	1
+96	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+97	__strbufultra_sonic	7	0	190	4	4
+98	__strbufultra_sonic.__strbufultra_sonic_type	1	0	0	1	0
+99	__RLSReadBuf3	7	0	192	4	8
+100	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+101	__constStr0009	7	0	194	4	1
+102	__constStr0009.__constStr0009_type	1	1	0	1	0
+103	__RLSLastGoodRead3	7	0	196	4	2
+104	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	13	0	#line 13 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+0	14	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	13	2	#line 13 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+0	15	2		exit 0, 1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5784	0	#pragma macro 25
+2	5784	0		acquire __CLSWMutex3
+2	5784	1		set __CLSWArgs3.Port, 3
+2	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	5784	8		syscall 21, __CLSWArgs3
+2	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+2	5784	13		release __CLSWMutex3
+2	5784	14	#line 5784 "NXTDefs.h"
+2	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+2	5788	24		set __RLSBIterations3, 4
+2	5790	27	#pragma macro 23
+2	5790	27		acquire __CLSCSMutex3
+2	5790	28		set __CLSCSArgs3.Port, 3
+2	5790	31		syscall 23, __CLSCSArgs3
+2	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+2	5790	38		release __CLSCSMutex3
+2	5790	39	#line 5790 "NXTDefs.h"
+2	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+2	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+2	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	5796	52		wait2 NA, __constVal15
+2	5797	55		jmp __RLSBDoCheckStatus3
+2	5800	57	#pragma macro 25
+2	5800	57		acquire __CLSRMutex3
+2	5800	58		set __CLSRArgs3.Port, 3
+2	5800	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	5800	63		syscall 22, __CLSRArgs3
+2	5800	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	5800	68		mov __RLSBResult3, __CLSRArgs3.Result
+2	5800	70		release __CLSRMutex3
+2	5800	71	#line 5800 "NXTDefs.h"
+2	5801	71		brtst 5, __RLSBError3, __RLSBResult3
+2	5802	74		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	5803	76		jmp __RLSBDone3
+2	5805	78		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	5807	80		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	5809	83		subret ____ReadLSBytes3_return
+3	16	0	#line 16 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	17	0		set __move_7qG2_i_7qG2_000, 0
+3	16	3	#line 16 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	16	3	#line 16 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	17	3		mov __signed_stack_001move, __move_7qG2_i_7qG2_000
+3	16	5	#line 16 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	17	5	#line 17 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	18	5		mov __D0move, __move_7qG2_nocms_7qG2_000
+3	17	7	#line 17 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	18	7		cmp 0, __zfmove, __signed_stack_001move, __D0move
+3	17	11	#line 17 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	18	11		mov __D0move, __zfmove
+3	18	13	#line 18 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	19	13		brtst 4, __NXC_Label_492, __zfmove
+3	19	16	#line 19 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	20	16		acquire motors_a_b_c
+3	19	17	#line 19 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	19	17	#line 19 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	20	17		mov __D0move, __move_7qG2_speed_7qG2_000
+3	20	19	#line 20 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	21	19	#pragma macro 7
+3	21	19		setout __OUT_BC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	3956	42	#line 3956 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	20	42	#line 20 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	20	42	#line 20 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	21	42		mov __Wait_7qG2_ms_7qG2_000_inline_move, __constValf4P65
+3	20	44	#line 20 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	7921	44	#line 7921 "NXCDefs.h"
+3	7922	44		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move
+3	7921	47	#line 7921 "NXCDefs.h"
+3	22	47	#line 22 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	23	47	#line 23 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	24	47	#pragma macro 7
+3	24	47		setout __constVal0, 2, __constVal0, 1, __constVal2, 8, __constVal0, 6, __constVal0, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	3973	70	#line 3973 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	23	70	#line 23 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	24	70	#line 24 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	25	70		release motors_a_b_c
+3	24	71	#line 24 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	25	71	#line 25 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	26	71		add __move_7qG2_i_7qG2_000, __move_7qG2_i_7qG2_000, __constVal1
+3	25	75	#line 25 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	26	75	#line 26 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	27	75		jmp __NXC_Label_491
+3	26	77	#line 26 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	26	77	#line 26 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	27	77		set __D0move, 0
+3	27	80	#line 27 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	28	80	#pragma macro 7
+3	28	80		setout __OUT_BC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	3990	103	#line 3990 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	27	103	#line 27 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	28	103	#line 28 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+3	29	103		subret __move_return
+4	31	0	#line 31 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	32	0		set __grab_7qG2_i_7qG2_000, 0
+4	31	3	#line 31 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	31	3	#line 31 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	32	3		mov __signed_stack_001grab, __grab_7qG2_i_7qG2_000
+4	31	5	#line 31 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	32	5	#line 32 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	33	5		mov __D0grab, __grab_7qG2_dost_7qG2_000
+4	32	7	#line 32 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	33	7		cmp 0, __zfgrab, __signed_stack_001grab, __D0grab
+4	32	11	#line 32 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	33	11		mov __D0grab, __zfgrab
+4	33	13	#line 33 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	34	13		brtst 4, __NXC_Label_504, __zfgrab
+4	34	16	#line 34 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	35	16		acquire motors_a_b_c
+4	34	17	#line 34 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	34	17	#line 34 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	35	17		mov __D0grab, __grab_7qG2_speed_7qG2_000
+4	35	19	#line 35 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	36	19	#pragma macro 7
+4	36	19		setout __constVal0, 2, __D0grab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4038	42	#line 4038 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	35	42	#line 35 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	35	42	#line 35 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	36	42		mov __Wait_7qG2_ms_7qG2_000_inline_grab, __constValf4P65
+4	35	44	#line 35 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	7921	44	#line 7921 "NXCDefs.h"
+4	7922	44		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_grab
+4	7921	47	#line 7921 "NXCDefs.h"
+4	37	47	#line 37 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	38	47	#line 38 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	39	47	#pragma macro 7
+4	39	47		setout __constVal0, 2, __constVal0, 1, __constVal2, 8, __constVal0, 6, __constVal0, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4055	70	#line 4055 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	38	70	#line 38 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	39	70	#line 39 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	40	70		release motors_a_b_c
+4	39	71	#line 39 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	40	71	#line 40 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	41	71		add __grab_7qG2_i_7qG2_000, __grab_7qG2_i_7qG2_000, __constVal1
+4	40	75	#line 40 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	41	75	#line 41 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	42	75		jmp __NXC_Label_503
+4	41	77	#line 41 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	41	77	#line 41 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	42	77		set __D0grab, 0
+4	42	80	#line 42 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	43	80	#pragma macro 7
+4	43	80		setout __constVal0, 2, __D0grab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4072	103	#line 4072 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	42	103	#line 42 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	43	103	#line 43 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+4	44	103		subret __grab_return
+5	66	0	#line 66 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	67	0		set __ultra_sonic_7qG2_ultra_7qG2_000, 0
+5	66	3	#line 66 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	67	3	#line 67 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	68	3		set __ultra_sonic_7qG2_hello_thr_7qG2_000, 12
+5	67	6	#line 67 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	68	6	#line 68 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	69	6		set __ultra_sonic_7qG2_bye_thr_7qG2_000, 20
+5	68	9	#line 68 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	70	9	#line 70 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	71	9		set __ultra_sonic_7qG2_near_7qG2_000, 0
+5	70	12	#line 70 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	72	12	#line 72 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	72	12	#line 72 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	72	12	#line 72 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	73	12		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_ultra_sonic, 3
+5	72	15	#line 72 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	73	15	#line 73 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	74	15		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_ultra_sonic, __constVal1
+5	3758	17	#line 3758 "NXCDefs.h"
+5	3759	17		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_ultra_sonic
+5	3758	19	#line 3758 "NXCDefs.h"
+5	3758	19	#line 3758 "NXCDefs.h"
+5	3759	19		mov __DU0SetSensorLowspeed_inline_ultra_sonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_ultra_sonic
+5	3758	21	#line 3758 "NXCDefs.h"
+5	3759	21		tst 5, __zfSetSensorLowspeed_inline_ultra_sonic, __DU0SetSensorLowspeed_inline_ultra_sonic
+5	3758	24	#line 3758 "NXCDefs.h"
+5	3759	24		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_ultra_sonic
+5	3758	27	#line 3758 "NXCDefs.h"
+5	3759	27		set __D0SetSensorLowspeed_inline_ultra_sonic, 11
+5	3758	30	#line 3758 "NXCDefs.h"
+5	3759	30		jmp __004__NXC_Label_37
+5	3758	32	#line 3758 "NXCDefs.h"
+5	3759	32		set __D0SetSensorLowspeed_inline_ultra_sonic, 10
+5	3758	35	#line 3758 "NXCDefs.h"
+5	3759	35		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic, __D0SetSensorLowspeed_inline_ultra_sonic
+5	3663	37	#line 3663 "NXCDefs.h"
+5	3664	37		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic, 0
+5	3663	41	#line 3663 "NXCDefs.h"
+5	3759	41	#line 3759 "NXCDefs.h"
+5	3759	41	#line 3759 "NXCDefs.h"
+5	3760	41		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_ultra_sonic
+5	3759	43	#line 3759 "NXCDefs.h"
+5	3759	43	#line 3759 "NXCDefs.h"
+5	3760	43		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic, 0
+5	3759	46	#line 3759 "NXCDefs.h"
+5	3676	46	#line 3676 "NXCDefs.h"
+5	3677	46		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic, 1
+5	3676	50	#line 3676 "NXCDefs.h"
+5	3760	50	#line 3760 "NXCDefs.h"
+5	3760	50	#line 3760 "NXCDefs.h"
+5	3761	50		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_ultra_sonic
+5	3760	52	#line 3760 "NXCDefs.h"
+5	3694	52	#line 3694 "NXCDefs.h"
+5	3695	52	#pragma macro 4
+5	3695	52		acquire __ResetSensorMutex
+5	3695	53		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ultra_sonic
+5	3695	55		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	3695	57		release __ResetSensorMutex
+5	4307	58	#line 4307 "NXCDefs.h"
+5	3694	58	#line 3694 "NXCDefs.h"
+5	3761	58	#line 3761 "NXCDefs.h"
+5	73	58	#line 73 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	74	58	#line 74 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	75	58		set __D0ultra_sonic, 1
+5	75	61	#line 75 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	76	61		tst 5, __zfultra_sonic, __D0ultra_sonic
+5	75	64	#line 75 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	76	64		brtst 4, __NXC_Label_536, __zfultra_sonic
+5	75	67	#line 75 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	76	67	#pragma macro 26
+5	76	67		acquire __RLSBmutex3
+5	76	68		mov __RLSReadBuf3, __RLSBbufLSWrite1
+5	76	70		set __RLSBytesCount3, 1
+5	76	73		wait2 NA, __constVal15
+5	76	76		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+5	76	78		index __D0ultra_sonic, __RLSReadBuf3, 65535
+5	76	82		release __RLSBmutex3
+5	4321	83	#line 4321 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	75	83	#line 75 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	76	83		mov __ultra_sonic_7qG2_ultra_7qG2_000, __D0ultra_sonic
+5	75	85	#line 75 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	75	85	#line 75 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	78	85	#line 78 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	79	85		mov __signed_stack_001ultra_sonic, __D0ultra_sonic
+5	78	87	#line 78 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	79	87	#line 79 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	80	87		mov __D0ultra_sonic, __ultra_sonic_7qG2_hello_thr_7qG2_000
+5	79	89	#line 79 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	80	89		cmp 2, __zfultra_sonic, __signed_stack_001ultra_sonic, __D0ultra_sonic
+5	79	93	#line 79 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	80	93		mov __D0ultra_sonic, __zfultra_sonic
+5	80	95	#line 80 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	81	95		brtst 4, __NXC_Label_543, __zfultra_sonic
+5	81	98	#line 81 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	81	98	#line 81 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	82	98		not __DU0ultra_sonic, __ultra_sonic_7qG2_near_7qG2_000
+5	82	101	#line 82 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	83	101		tst 5, __zfultra_sonic, __DU0ultra_sonic
+5	82	104	#line 82 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	83	104		brtst 4, __NXC_Label_546, __zfultra_sonic
+5	82	107	#line 82 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	83	107		set __signed_stack_001ultra_sonic, 0
+5	82	110	#line 82 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	82	110	#line 82 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	83	110		set __signed_stack_002ultra_sonic, 40
+5	82	113	#line 82 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	82	113	#line 82 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	83	113		strcat __strbufultra_sonic, __constStr0009
+5	83	117	#line 83 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	117		acquire __TextOutMutex
+5	83	118	#line 83 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	118		mov __TextOutArgs.Location.X, __signed_stack_001ultra_sonic
+5	83	120	#line 83 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	120		mov __TextOutArgs.Location.Y, __signed_stack_002ultra_sonic
+5	83	122	#line 83 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	122		set __TextOutArgs.Options, 0
+5	83	125	#line 83 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	125		mov __TextOutArgs.Text, __strbufultra_sonic
+5	83	127	#line 83 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	127		syscall 13, __TextOutArgs
+5	83	130	#line 83 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	130		mov __D0ultra_sonic, __TextOutArgs.Result
+5	83	132	#line 83 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	132		release __TextOutMutex
+5	83	133	#line 83 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	133	#line 84 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	85	133		mov sensor, __ultra_sonic_7qG2_ultra_7qG2_000
+5	84	135	#line 84 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	84	135	#line 84 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	85	135	#line 85 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	86	135		set __ultra_sonic_7qG2_near_7qG2_000, 1
+5	85	138	#line 85 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	85	138	#line 85 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	87	138	#line 87 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	87	138	#line 87 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	88	138		jmp __NXC_Label_555
+5	87	140	#line 87 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	88	140		mov __signed_stack_001ultra_sonic, __ultra_sonic_7qG2_ultra_7qG2_000
+5	87	142	#line 87 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	88	142	#line 88 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	89	142		mov __D0ultra_sonic, __ultra_sonic_7qG2_bye_thr_7qG2_000
+5	88	144	#line 88 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	89	144		cmp 1, __zfultra_sonic, __signed_stack_001ultra_sonic, __D0ultra_sonic
+5	88	148	#line 88 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	89	148		mov __D0ultra_sonic, __zfultra_sonic
+5	89	150	#line 89 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	90	150		brtst 4, __NXC_Label_558, __zfultra_sonic
+5	90	153	#line 90 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	91	153		mov __DU0ultra_sonic, __ultra_sonic_7qG2_near_7qG2_000
+5	91	155	#line 91 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	92	155		tst 5, __zfultra_sonic, __DU0ultra_sonic
+5	91	158	#line 91 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	92	158		brtst 4, __NXC_Label_561, __zfultra_sonic
+5	91	161	#line 91 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	92	161		set __signed_stack_001ultra_sonic, 0
+5	91	164	#line 91 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	91	164	#line 91 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	92	164		set __signed_stack_002ultra_sonic, 40
+5	91	167	#line 91 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	91	167	#line 91 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	92	167		strcat __strbufultra_sonic, __constStr0010
+5	92	171	#line 92 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	171		acquire __TextOutMutex
+5	92	172	#line 92 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	172		mov __TextOutArgs.Location.X, __signed_stack_001ultra_sonic
+5	92	174	#line 92 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	174		mov __TextOutArgs.Location.Y, __signed_stack_002ultra_sonic
+5	92	176	#line 92 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	176		set __TextOutArgs.Options, 0
+5	92	179	#line 92 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	179		mov __TextOutArgs.Text, __strbufultra_sonic
+5	92	181	#line 92 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	181		syscall 13, __TextOutArgs
+5	92	184	#line 92 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	184		mov __D0ultra_sonic, __TextOutArgs.Result
+5	92	186	#line 92 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	186		release __TextOutMutex
+5	92	187	#line 92 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	187	#line 93 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	94	187		mov sensor, __ultra_sonic_7qG2_ultra_7qG2_000
+5	93	189	#line 93 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	93	189	#line 93 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	94	189	#line 94 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	95	189		set __ultra_sonic_7qG2_near_7qG2_000, 0
+5	94	192	#line 94 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	94	192	#line 94 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	99	192	#line 99 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	99	192	#line 99 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	99	192	#line 99 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	99	192	#line 99 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	100	192		set __Wait_7qG2_ms_7qG2_000_inline_ultra_sonic, 100
+5	99	195	#line 99 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	7921	195	#line 7921 "NXCDefs.h"
+5	7922	195		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_ultra_sonic
+5	7921	198	#line 7921 "NXCDefs.h"
+5	100	198	#line 100 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	105	198	#line 105 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	106	198		jmp __NXC_Label_535
+5	105	200	#line 105 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+5	106	200		exit -1, -1
+6	108	0	#line 108 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	108	0	#line 108 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	109	0	#line 109 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	109	0	#line 109 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	109	0	#line 109 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	110	0		mov __signed_stack_001RunTasks1, sensor
+6	109	2	#line 109 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	110	2	#line 110 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	111	2		set __D0RunTasks1, 15
+6	110	5	#line 110 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	111	5		cmp 1, __zfRunTasks1, __signed_stack_001RunTasks1, __D0RunTasks1
+6	110	9	#line 110 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	111	9		mov __D0RunTasks1, __zfRunTasks1
+6	111	11	#line 111 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	112	11		brtst 4, __NXC_Label_575, __zfRunTasks1
+6	111	14	#line 111 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	112	14		set __move_7qG2_nocms_7qG2_000, 10
+6	111	17	#line 111 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	111	17	#line 111 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	112	17		set __move_7qG2_speed_7qG2_000, 70
+6	111	20	#line 111 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	112	20	#line 112 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	113	20		subcall move, __move_return
+6	112	22	#line 112 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	113	22	#line 113 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	114	22		jmp __NXC_Label_574
+6	113	24	#line 113 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	113	24	#line 113 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	114	24		set __grab_7qG2_dost_7qG2_000, 100
+6	113	27	#line 113 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	113	27	#line 113 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	114	27		mov __grab_7qG2_speed_7qG2_000, __constValNeg40
+6	113	29	#line 113 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	114	29	#line 114 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	115	29		subcall grab, __grab_return
+6	114	31	#line 114 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	114	31	#line 114 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	115	31		set __move_7qG2_nocms_7qG2_000, 500
+6	114	34	#line 114 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	114	34	#line 114 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	115	34		mov __move_7qG2_speed_7qG2_000, __constValNeg70
+6	114	36	#line 114 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	115	36	#line 115 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	116	36		subcall move, __move_return
+6	115	38	#line 115 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	115	38	#line 115 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	116	38		set __grab_7qG2_dost_7qG2_000, 100
+6	115	41	#line 115 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	115	41	#line 115 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	116	41		set __grab_7qG2_speed_7qG2_000, 30
+6	115	44	#line 115 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	117	44	#line 117 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	118	44		subcall grab, __grab_return
+6	117	46	#line 117 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+6	118	46		exit -1, -1
+7	120	0	#line 120 "C:\Users\Stevie\Desktop\alpha_rex.nxc"
+7	121	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Stevie\Desktop\alpha_rex.nxc
+1	__ResetSensorSubroutine	5	NXTDefs.h
+2	__ReadLSBytes3	18	NXTDefs.h
+3	move	103	C:\Users\Stevie\Desktop\alpha_rex.nxc
+4	grab	208	C:\Users\Stevie\Desktop\alpha_rex.nxc
+5	ultra_sonic	313	C:\Users\Stevie\Desktop\alpha_rex.nxc
+6	RunTasks1	516	C:\Users\Stevie\Desktop\alpha_rex.nxc
+7	__initialize_global_data	565	C:\Users\Stevie\Desktop\alpha_rex.nxc

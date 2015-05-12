@@ -1,0 +1,360 @@
+#define MY_ONE_STEP 360
+#define MY_STEPS_TO_BALL 11
+#define MY_STEPS_TO_TURN 8
+#define MY_FWD_PWR 50
+#define MY_BOOGIE_PWR 70
+#define LIGHT_THRESHOLD 55
+#define COLORSENSOR SENSOR_1
+#define general_speed 75
+mutex motors_a_b_c;
+mutex the_display;
+int sensor = 999;
+int touch = 0;
+int light = 0;
+int looper = 0;
+int counter = 0;
+int color = 0;
+bool testlogic = 0;
+int myangle;
+
+task main()
+{
+}
+
+void move(int nocms, int speed)     /* Move 100 - 1 cm */
+{
+    short i = 0;
+    while (i < nocms)
+    {
+        Acquire(motors_a_b_c);
+        OnFwd(OUT_BC, speed-15);
+        Wait(40);
+        /* Use synch API to try & keep drive motors in step */
+        Float(OUT_A);
+        Release (motors_a_b_c);
+        i++;
+    }
+    OnFwd(OUT_BC, 0);
+}
+void grab(int dost, int speed)
+{
+    short i = 0;
+    while (i < dost)
+    {
+        Acquire(motors_a_b_c);
+        OnFwd(OUT_A, speed);
+        Wait(40);
+        /* Use synch API to try & keep drive motors in step */
+        Float(OUT_A);
+        Release (motors_a_b_c);
+        i++;
+    }
+    OnFwd(OUT_A, 0);
+}
+
+void light_turn_right()
+{
+    short i = 0;
+    Acquire(motors_a_b_c);
+    OnFwd(OUT_B, 100);
+    
+    Release (motors_a_b_c);
+
+}
+
+
+void turn_right(int angle)
+{
+    short i = 0;
+    Acquire(motors_a_b_c);
+    RotateMotor(OUT_B, 100, angle*4);
+    Release (motors_a_b_c);
+}
+void turn_left(int angle)
+{
+    short i = 0;
+    Acquire(motors_a_b_c);
+    RotateMotor(OUT_C, 100, angle*4);
+    Release (motors_a_b_c);
+}
+
+void randomMovementAlgorithm()
+{
+    while(testlogic == 0)
+    {
+        while ((COLORSENSOR != 4 && COLORSENSOR != 2) && sensor > 20 && touch == 0)
+        {
+            move(1, 100);
+            TextOut(0, 0, "loop");
+
+        }
+        if (COLORSENSOR == 4 || COLORSENSOR == 2)
+        {
+            grab(4, 70);
+            testlogic = 1;
+        }
+        else
+        {
+            move(30, -100);
+            turn_right(Random(90)+90);
+        }
+    }
+    NumOut(0,0, "noloop");
+    touch = 0;
+    testlogic = 0;
+}
+/*
+void GrabTasks()
+{
+    Follows();
+    grab(500, 50);
+    grab(100, -50);
+}
+*/
+void findLightSource()
+{
+
+    OnFwd(OUT_A, 5);
+
+    while(sensor > 20 && counter < 10)
+    {
+        int holder = light;
+        
+        /*OnFwd(OUT_C, 75); //start turning
+        OnFwd(OUT_B, -75); //start turning
+
+        while(looper == 0 && sensor > 20)
+        {
+        Wait(1000);
+            if(holder < light)
+            {
+                holder = light;
+            }
+            if(holder > light)
+            {
+                looper = 1;
+            }
+        }
+        OnFwd(OUT_C, 0);
+        OnFwd(OUT_B, 0);
+        looper = 0;*/
+        while(looper == 0 && sensor > 20)
+        {
+            turn_right(50);
+            if(holder < light)
+            {
+                holder = light;
+            }
+            if(holder > light)
+            {
+                turn_left(50);
+                looper = 1;
+            }
+        }
+
+        while(looper == 0 && sensor > 20)
+        {
+            turn_left(50);
+            if(holder < light)
+            {
+                holder = light;
+            }
+            if(holder > light)
+            {
+                turn_right(50);
+                looper = 1;
+            }
+        }
+        while(looper == 0 && sensor > 20)
+        {
+            turn_right(12);
+            if(holder < light)
+            {
+                holder = light;
+            }
+            if(holder > light)
+            {
+                turn_left(12);
+                looper = 1;
+            }
+        }
+        looper = 0;
+        while(looper == 0 && sensor > 20)
+        {
+            turn_left(12);
+            if(holder < light)
+            {
+                holder = light;
+            }
+            if(holder > light)
+            {
+                turn_right(12);
+                looper = 1;
+            }
+        }
+        looper = 0;
+        move(30, 100);
+        counter = counter + 1;
+    }
+    counter = 0;
+}
+
+
+void avoidLightSource()
+{
+
+    while(sensor > 20 && counter < 3)
+    {
+        int holder = light;
+
+        while(looper == 0 && sensor > 20)
+        {
+            turn_right(50);
+            if(holder > light)
+            {
+                holder = light;
+            }
+            if(holder < light)
+            {
+                turn_left(50);
+                looper = 1;
+            }
+        }
+        looper = 0;
+        while(looper == 0 && sensor > 20)
+        {
+            turn_left(50);
+            if(holder > light)
+            {
+                holder = light;
+            }
+            if(holder < light)
+            {
+                turn_right(50);
+                looper = 1;
+            }
+        }
+        while(looper == 0 && sensor > 20)
+        {
+            turn_right(12);
+            if(holder > light)
+            {
+                holder = light;
+            }
+            if(holder < light)
+            {
+                turn_left(12);
+                looper = 1;
+            }
+        }
+        looper = 0;
+        while(looper == 0 && sensor > 20)
+        {
+            turn_left(12);
+            if(holder > light)
+            {
+                holder = light;
+            }
+            if(holder < light)
+            {
+                turn_right(12);
+                looper = 1;
+            }
+        }
+        looper = 0;
+        move(30, 100);
+        counter = counter + 1;
+    }
+    counter = 0;
+}
+
+/*
+void dodge_robot()
+{
+    while(sensor < 20)
+    {
+        move(10, 100);
+    }
+    move(20, -100);
+    turn_left(45);
+    move(40, 100);
+    turn_right(135);
+    move(40, 100);
+    turn_left(60);
+}
+*/
+/*
+This task monitors the US sensor for things getting closer than
+12cm. If detected, plays Hello.rso. If something is near, monitors
+for it going away, and plays Goodbye.rso.
+*/
+task ultra_sonic()
+{
+    Follows (main);
+    short ultra = 0;
+    short hello_thr = 12;
+    short bye_thr = 20;
+    bool  near = false;
+
+    SetSensorUltrasonic(IN_4);
+    while (1)
+    {
+        sensor = SensorUS(IN_4);
+        Wait(25);
+    }
+}
+
+task touch_sensor()
+{
+    Follows (main);
+    byte t1, t2, t3, t4;
+    SetSensorTouch(IN_3);
+    while (true) {
+        ReadSensorHTTouchMultiplexer(IN_3, t1, t2, t3, t4);
+        if (t1)
+        touch = 1;
+        else
+        touch = 0;
+
+    }
+}
+task color_sensor()
+{
+    Follows (main);
+    while (true) {
+    SetSensorColorFull(IN_1);
+    }
+
+}
+
+task light_sensor()
+{
+    Follows (main);
+    SetSensorLight(IN_2);
+    while (true)
+    {
+
+        light = Sensor(IN_2);
+    }
+}
+
+task RunMainTask()
+{
+    Follows (main);
+    while(true)
+    {
+        randomMovementAlgorithm();
+        if(color == 4)
+        {
+        avoidLightSource();
+        }
+        else
+        {
+        findLightSource();
+        }
+        move(15, -100);
+        grab(30 , -50);
+        turn_right(180);
+        move(25, 100);
+    }
+}

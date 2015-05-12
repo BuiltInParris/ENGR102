@@ -1,0 +1,234 @@
+#define MY_ONE_STEP 360
+#define MY_STEPS_TO_BALL 11
+#define MY_STEPS_TO_TURN 8
+#define MY_FWD_PWR 50
+#define MY_BOOGIE_PWR 70
+#define LIGHT_THRESHOLD 55
+mutex motors_a_b_c;
+mutex the_display;
+int sensor = 999;
+int touch = 0;
+int light = 0;
+int looper = 0;
+bool testlogic = 0;
+
+task main()
+{
+}
+
+void move(int nocms, int speed)     /* Move 100 - 1 cm */
+{
+    short i = 0;
+    while (i < nocms)
+    {
+        Acquire(motors_a_b_c);
+        OnFwd(OUT_BC, speed);
+        Wait(40);
+        /* Use synch API to try & keep drive motors in step */
+        Float(OUT_A);
+        Release (motors_a_b_c);
+        i++;
+    }
+    OnFwd(OUT_BC, 0);
+}
+void grab(int dost, int speed)
+{
+    short i = 0;
+    while (i < dost)
+    {
+        Acquire(motors_a_b_c);
+        OnFwd(OUT_A, speed);
+        Wait(40);
+        /* Use synch API to try & keep drive motors in step */
+        Float(OUT_A);
+        Release (motors_a_b_c);
+        i++;
+    }
+    OnFwd(OUT_A, 0);
+}
+
+void turn_right(int angle)
+{
+    short i = 0;
+    Acquire(motors_a_b_c);
+    RotateMotor(OUT_B, 100, -angle*4);
+    Release (motors_a_b_c);
+}
+void turn_left(int angle)
+{
+    short i = 0;
+    Acquire(motors_a_b_c);
+    RotateMotor(OUT_B, 100, angle*4);
+    Release (motors_a_b_c);
+}
+
+void randomMovementAlgorithm()
+{
+    while(testlogic == 0)
+    {
+        while (touch == 0 && sensor > 20)
+        {
+            move(1, 100);
+        }
+        if (touch == 1)
+        {
+            grab(60, 50);
+            testlogic = 1;
+        }
+        else
+        {
+            move(30, -100);
+            turn_right(Random(90)+90);
+        }
+    }
+    touch = 0;
+    testlogic = 0;
+}
+/*
+void GrabTasks()
+{
+    Follows();
+    grab(500, 50);
+    grab(100, -50);
+}
+*/
+int lightest = 0;
+void findLightSource()
+{
+
+    while(sensor > 14)
+    {
+        int holder = light;
+
+        while(holder < light && sensor > 14)
+        {
+            holder = light;
+            turn_right(15);
+        }
+        looper = 0;
+        move(30, 100);
+    }
+}
+
+void dodge_robot()
+{
+    while(sensor < 20)
+    {
+        move(10, 100);
+    }
+    move(20, -100);
+    turn_left(45);
+    move(40, 100);
+    turn_right(135);
+    move(40, 100);
+    turn_left(60);
+}
+
+/*
+This task monitors the US sensor for things getting closer than
+12cm. If detected, plays Hello.rso. If something is near, monitors
+for it going away, and plays Goodbye.rso.
+*/
+task ultra_sonic()
+{
+    short ultra = 0;
+    short hello_thr = 12;
+    short bye_thr = 20;
+    bool  near = false;
+
+    Follows (main);
+
+    SetSensorUltrasonic(IN_4);
+    while (1)
+    {
+        ultra = SensorUS(IN_4);
+        //NumOut(10, LCD_LINE7, true, ultra);
+
+        if (ultra <= hello_thr)
+        {
+            if(!near)
+            {
+                TextOut(0, LCD_LINE3, "close");
+                sensor = ultra;
+                near = true;
+            }
+        }
+        else if ( ultra > bye_thr)
+        {
+            if(near)
+            {
+                TextOut(0, LCD_LINE3, "far  ");
+                sensor = ultra;
+                near = false;
+            }
+        }
+        else if ( ultra = 0)
+        {
+            if(near)
+            {
+                TextOut(0, LCD_LINE3, "dead  ");
+                sensor = ultra;
+                near = false;
+            }
+        }
+        /*
+        No point in using up all the CPU whizzing round this loop.
+        */
+        Wait(25);
+    }
+}
+task touch_sensor()
+{
+    Follows (main);
+    byte t1, t2, t3, t4;
+    SetSensorTouch(IN_3);
+    while (true) {
+        ReadSensorHTTouchMultiplexer(IN_3, t1, t2, t3, t4);
+        if (t1)
+        touch = 1;
+        else
+        touch = 0;
+
+    }
+}
+task color_sensor()
+{
+    SetSensorColorFull(IN_1);
+
+}
+
+task light_sensor()
+{
+    Follows (main);
+    SetSensorLight(IN_2);
+    while (true)
+    {
+
+        light = Sensor(IN_2);
+    }
+}
+
+
+task RunMainTask()
+{
+    Follows (main);
+    while(true)
+    {
+        randomMovementAlgorithm();
+        findLightSource();
+        move(10, -100);
+        grab(200, -50);
+        turn_right(180);
+        move(25, 100);
+    }
+}
+
+/*
+task
+short i = 0;
+Follows (main);
+Wait(700);
+move(300, -70);
+}
+
+*/

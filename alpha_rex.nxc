@@ -1,0 +1,42 @@
+#define MY_ONE_STEP 1080
+#define MY_STEPS_TO_BALL 11
+#define MY_STEPS_TO_TURN 8
+#define MY_FWD_PWR 50
+#define MY_BOOGIE_PWR 70
+mutex motors_a_b_c;
+mutex the_display;
+task main()
+{
+}
+
+void move(int nocms)     /* Move 1 cm */
+{
+    short i = 0;
+    while (i < nocms)
+    {
+        Acquire(motors_a_b_c);
+        OnFwd(OUT_B, MY_FWD_PWR);
+        OnFwd(OUT_C, MY_FWD_PWR);
+        Wait(4.65);
+        /* Use synch API to try & keep drive motors in step */
+        Float(OUT_A);
+        Release (motors_a_b_c);
+        i++;
+    }
+    OnFwd(OUT_B, 0);
+    OnFwd(OUT_C, 0);
+}
+void turn()
+{
+     Acquire(motors_a_b_c);
+     RotateMotorEx(OUT_BC, MY_FWD_PWR, MY_ONE_STEP, 0, true, true);
+}
+
+
+
+task RunTasks1()
+{
+Follows (main);
+move(10);
+turn();
+}

@@ -1,0 +1,1056 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0RunMainTask	6	1	0	4	2
+1	__D0touch_sensor	6	1	4	4	2
+2	__D0move	6	1	8	4	7
+3	__D0randomMovementAlgorithm	6	1	12	4	16
+4	__DU0touch_sensor	5	1	16	4	2
+5	__DU0ultra_sonic	5	1	20	4	6
+6	__D0SetSensorLight_inline_light_sensor	6	1	24	4	3
+7	__D0turn_right	6	1	28	4	4
+8	__D0ultra_sonic	6	1	32	4	16
+9	__D0light_sensor	6	1	36	4	2
+10	__RLSBmutex3	9	0	40	4	2
+11	__RandomTmp	5	1	44	4	7
+12	__CLSRMutex3	9	0	48	4	2
+13	__TextOutMutex	9	0	52	4	6
+14	__HTMplexScaled	5	1	56	4	10
+15	__D0findLightSource	6	1	60	4	11
+16	__D0grab	6	1	64	4	7
+17	__HTMplexMutex	9	0	68	4	2
+18	__constVal32768	6	0	72	4	1
+19	__DU0SetSensorLight_inline_light_sensor	5	1	76	4	2
+20	__signed_stack_002ultra_sonic	6	1	80	4	6
+21	motors_a_b_c	9	0	84	4	6
+22	__signed_stack_002turn_right	6	1	88	4	2
+23	__signed_stack_001ultra_sonic	6	1	92	4	10
+24	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	96	4	2
+25	__Wait_7qG2_ms_7qG2_000_inline_ultra_sonic	5	1	100	4	2
+26	__constVal346797	6	0	104	4	1
+27	__Wait_7qG2_ms_7qG2_000_inline_grab	5	1	108	4	2
+28	__constVal65536	6	0	112	4	1
+29	__signed_stack_001turn_right	6	1	116	4	2
+30	__signed_stack_001findLightSource	6	1	120	4	6
+31	__signed_stack_002findLightSource	6	1	124	4	2
+32	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	128	4	3
+33	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	132	4	2
+34	__signed_stack_001grab	6	1	136	4	2
+35	__signed_stack_002randomMovementAlgorithm	6	1	140	4	2
+36	__unsigned_stack_001randomMovementAlgorithm	5	1	144	4	2
+37	__signed_stack_001move	6	1	148	4	2
+38	__signed_stack_001randomMovementAlgorithm	6	1	152	4	6
+39	__rotate_theAngle1	5	1	156	4	2
+40	__rotate_angle1	6	1	160	4	5
+41	__CLSCSMutex3	9	0	164	4	2
+42	__rotateMutex1	9	0	168	4	2
+43	__CLSWMutex3	9	0	172	4	2
+44	__ResetSensorMutex	9	0	176	4	6
+45	__grab_7qG2_i_7qG2_000	4	1	180	2	4
+46	__turn_right_7qG2_angle_7qG2_000	4	1	182	2	4
+47	__ultra_sonic_7qG2_hello_thr_7qG2_000	4	1	184	2	2
+48	__ultra_sonic_7qG2_bye_thr_7qG2_000	4	1	186	2	2
+49	holder	4	1	188	2	2
+50	__ultra_sonic_7qG2_ultra_7qG2_000	4	1	190	2	7
+51	__grab_7qG2_speed_7qG2_000	4	1	192	2	3
+52	light	4	1	194	2	3
+53	__rotate_OldRotCount1	4	1	196	2	2
+54	sensor	4	0	198	2	6
+55	touch	4	1	200	2	5
+56	__rotate_RotCount1	4	1	202	2	4
+57	__move_7qG2_i_7qG2_000	4	1	204	2	4
+58	__grab_7qG2_dost_7qG2_000	4	1	206	2	3
+59	__move_7qG2_nocms_7qG2_000	4	1	208	2	6
+60	__move_7qG2_speed_7qG2_000	4	1	210	2	6
+61	__HTMplexRaw	3	1	212	2	3
+62	__constVal339	4	0	214	2	1
+63	____initialize_global_data_return	1	1	216	1	3
+64	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_light_sensor	1	1	217	1	2
+65	testlogic	1	1	218	1	3
+66	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_light_sensor	1	1	219	1	2
+67	__move_return	1	1	220	1	7
+68	__SetSensorLight_7qG2_port_7qG2_000_inline_light_sensor	1	1	221	1	4
+69	__SetSensorLight_7qG2_bActive_7qG2_000_inline_light_sensor	1	1	222	1	2
+70	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_light_sensor	1	1	223	1	2
+71	__rotate_stop1	1	1	224	1	2
+72	__rotate_sync1	1	1	225	1	2
+73	__rotate_theUF1	1	1	226	1	6
+74	__rotate_turnpct1	2	1	227	1	3
+75	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_light_sensor	1	1	228	1	2
+76	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_light_sensor	1	1	229	1	2
+77	__rotate_firstPort1	1	1	230	1	5
+78	__constValNeg50	2	0	231	1	1
+79	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic	1	1	232	1	2
+80	__findLightSource_return	1	1	233	1	3
+81	__randomMovementAlgorithm_return	1	1	234	1	3
+82	__rotate_power1	1	1	235	1	4
+83	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_ultra_sonic	1	1	236	1	4
+84	__ultra_sonic_7qG2_near_7qG2_000	1	1	237	1	8
+85	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic	1	1	238	1	2
+86	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_ultra_sonic	1	1	239	1	2
+87	__turn_right_return	1	1	240	1	5
+88	__SetSensorTouch_7qG2_port_7qG2_000_inline_touch_sensor	1	1	241	1	4
+89	__touch_sensor_7qG2_t1_7qG2_000	1	1	242	1	2
+90	__constVal96	2	0	243	1	7
+91	__constVal63	2	0	244	1	6
+92	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic	1	1	245	1	2
+93	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic	1	1	246	1	2
+94	__grab_return	1	1	247	1	4
+95	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic	1	1	248	1	2
+96	__constVal5	2	0	249	1	1
+97	__zfgrab	1	1	250	1	3
+98	__zffindLightSource	1	1	251	1	10
+99	__PFTmp	1	1	252	1	1
+100	__ResetSensorPort	1	1	253	1	5
+101	__zfmove	1	1	254	1	3
+102	____RotateMotor1_sign_tmp	2	1	255	1	4
+103	__constVal3	2	0	256	1	5
+104	__constVal4	2	0	257	1	1
+105	__zflight_sensor	1	1	258	1	2
+106	__ResetSensorTmp	1	1	259	1	2
+107	__RLSBResult3	2	1	260	1	7
+108	__RLSBytesCount3	1	1	261	1	7
+109	____ReadLSBytes3_return	1	1	262	1	3
+110	__constVal15	2	0	263	1	3
+111	__constVal2	2	0	264	1	3
+112	__constValNeg100	2	0	265	1	2
+113	____ResetSensorSubroutine_return	1	1	266	1	5
+114	__constVal90	2	0	267	1	1
+115	__RLSBIterations3	1	1	268	1	4
+116	__constVal10	2	0	269	1	1
+117	__zfrandomMovementAlgorithm	1	1	270	1	13
+118	__zfSetSensorLight_inline_light_sensor	1	1	271	1	2
+119	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	272	1	2
+120	__rotate_theRVI1	1	1	273	1	2
+121	__rotate_thePower1	2	1	274	1	4
+122	__rotate_rs1	1	1	275	1	2
+123	__rotate_theRM1	1	1	276	1	4
+124	__rotate_theRS1	1	1	277	1	3
+125	__rotate_theRVP1	1	1	278	1	2
+126	__rotate_theOM1	1	1	279	1	7
+127	__zfultra_sonic	1	1	280	1	16
+128	__constVal50	2	0	281	1	1
+129	__constVal0	2	1	282	1	34
+130	____RotateMotor1_return	1	1	283	1	3
+131	__zfRunMainTask	1	1	284	1	2
+132	__rotate_theRVD1	1	1	285	1	2
+133	__constVal32	2	0	286	1	21
+134	__rotate_theTurnPct1	2	1	287	1	4
+135	__zftouch_sensor	1	1	288	1	4
+136	__constVal1	2	0	289	1	13
+137	__CLSRArgs3	8	0	4	12	5
+138	__CLSRArgs3.Result	2	1	292	1	5
+139	__CLSRArgs3.Port	1	1	293	1	5
+140	__CLSRArgs3.Buffer	7	0	294	4	5
+141	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+142	__CLSRArgs3.BufferLen	1	1	296	1	5
+143	__CLSWArgs3	8	0	4	12	5
+144	__CLSWArgs3.Result	2	1	300	1	5
+145	__CLSWArgs3.Port	1	1	301	1	5
+146	__CLSWArgs3.Buffer	7	0	302	4	5
+147	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+148	__CLSWArgs3.ReturnLen	1	1	304	1	5
+149	__TextOutArgs	8	0	4	16	18
+150	__TextOutArgs.Result	2	1	308	1	18
+151	__TextOutArgs.Location	8	0	2	4	18
+152	__TextOutArgs.Location.X	4	1	312	2	18
+153	__TextOutArgs.Location.Y	4	1	314	2	18
+154	__TextOutArgs.Text	7	0	316	4	18
+155	__TextOutArgs.Text.Text_type	1	0	0	1	0
+156	__TextOutArgs.Options	5	1	320	4	18
+157	__RandomArgs	8	0	1	4	3
+158	__RandomArgs.Result	4	1	324	2	3
+159	__CLSCSArgs3	8	0	3	4	4
+160	__CLSCSArgs3.Result	2	1	328	1	4
+161	__CLSCSArgs3.Port	1	1	329	1	4
+162	__CLSCSArgs3.BytesReady	1	1	330	1	4
+163	__rotate_ports1	7	0	332	4	6
+164	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+165	__RLSBbufLSWrite1	7	0	334	4	1
+166	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+167	__strbufultra_sonic	7	0	336	4	6
+168	__strbufultra_sonic.__strbufultra_sonic_type	1	0	0	1	0
+169	__constStr0009	7	0	338	4	1
+170	__constStr0009.__constStr0009_type	1	1	0	1	0
+171	__constStr0011	7	0	340	4	1
+172	__constStr0011.__constStr0011_type	1	1	0	1	0
+173	__RLSReadBuf3	7	0	342	4	8
+174	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+175	__OUT_BC	7	0	344	4	2
+176	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+177	__constStr0010	7	0	346	4	1
+178	__constStr0010.__constStr0010_type	1	1	0	1	0
+179	__RLSLastGoodRead3	7	0	348	4	2
+180	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	18	0	#line 18 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+0	19	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	18	2	#line 18 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+0	20	2		exit 0, 3
+1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	4530	3		set ____RotateMotor1_sign_tmp, 0
+1	4530	6		brtst EQ, __sign_1, __rotate_angle1
+1	4530	9		set ____RotateMotor1_sign_tmp, -1
+1	4530	12		brtst LT, __sign_1, __rotate_angle1
+1	4530	15		set ____RotateMotor1_sign_tmp, 1
+1	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
+1	4531	20		abs __rotate_theAngle1, __rotate_angle1
+1	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	27		set __rotate_theUF1, 23
+1	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	33		set __rotate_theOM1, 7
+1	4537	36		set __rotate_theRM1, 2
+1	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	48		jmp __rotate_Start1
+1	4543	50		set __rotate_theOM1, 3
+1	4544	53		set __rotate_theRM1, 0
+1	4545	56		set __rotate_theTurnPct1, 0
+1	4547	59		set __rotate_theRS1, 32
+1	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	107		set __rotate_theOM1, 7
+1	4561	110		set __rotate_theUF1, 7
+1	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	134		wait2 NA, __constVal50
+1	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	145		set __rotate_theOM1, 4
+1	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	162		setout __rotate_ports1, 0, __constVal32
+1	4578	167		subret ____RotateMotor1_return
+2	4885	0		setin __constVal1, __ResetSensorPort, 5
+2	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	4889	11		subret ____ResetSensorSubroutine_return
+3	5784	0	#pragma macro 25
+3	5784	0		acquire __CLSWMutex3
+3	5784	1		set __CLSWArgs3.Port, 3
+3	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+3	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+3	5784	8		syscall 21, __CLSWArgs3
+3	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+3	5784	13		release __CLSWMutex3
+3	5784	14	#line 5784 "NXTDefs.h"
+3	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+3	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+3	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+3	5788	24		set __RLSBIterations3, 4
+3	5790	27	#pragma macro 23
+3	5790	27		acquire __CLSCSMutex3
+3	5790	28		set __CLSCSArgs3.Port, 3
+3	5790	31		syscall 23, __CLSCSArgs3
+3	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+3	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+3	5790	38		release __CLSCSMutex3
+3	5790	39	#line 5790 "NXTDefs.h"
+3	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+3	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+3	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+3	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+3	5796	52		wait2 NA, __constVal15
+3	5797	55		jmp __RLSBDoCheckStatus3
+3	5800	57	#pragma macro 25
+3	5800	57		acquire __CLSRMutex3
+3	5800	58		set __CLSRArgs3.Port, 3
+3	5800	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+3	5800	63		syscall 22, __CLSRArgs3
+3	5800	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+3	5800	68		mov __RLSBResult3, __CLSRArgs3.Result
+3	5800	70		release __CLSRMutex3
+3	5800	71	#line 5800 "NXTDefs.h"
+3	5801	71		brtst 5, __RLSBError3, __RLSBResult3
+3	5802	74		mov __RLSLastGoodRead3, __RLSReadBuf3
+3	5803	76		jmp __RLSBDone3
+3	5805	78		mov __RLSReadBuf3, __RLSLastGoodRead3
+3	5807	80		arrsize __RLSBytesCount3, __RLSReadBuf3
+3	5809	83		subret ____ReadLSBytes3_return
+4	21	0	#line 21 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	22	0		set __move_7qG2_i_7qG2_000, 0
+4	21	3	#line 21 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	21	3	#line 21 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	22	3		mov __signed_stack_001move, __move_7qG2_i_7qG2_000
+4	21	5	#line 21 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	22	5	#line 22 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	23	5		mov __D0move, __move_7qG2_nocms_7qG2_000
+4	22	7	#line 22 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	23	7		cmp 0, __zfmove, __signed_stack_001move, __D0move
+4	22	11	#line 22 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	23	11		mov __D0move, __zfmove
+4	23	13	#line 23 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	24	13		brtst 4, __NXC_Label_492, __zfmove
+4	24	16	#line 24 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	25	16		acquire motors_a_b_c
+4	24	17	#line 24 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	24	17	#line 24 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	25	17		mov __D0move, __move_7qG2_speed_7qG2_000
+4	25	19	#line 25 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	26	19	#pragma macro 7
+4	26	19		setout __OUT_BC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4350	42	#line 4350 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	25	42	#line 25 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	25	42	#line 25 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	26	42		set __Wait_7qG2_ms_7qG2_000_inline_move, 40
+4	25	45	#line 25 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	7921	45	#line 7921 "NXCDefs.h"
+4	7922	45		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move
+4	7921	48	#line 7921 "NXCDefs.h"
+4	27	48	#line 27 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	28	48	#line 28 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	29	48	#pragma macro 7
+4	29	48		setout __constVal0, 2, __constVal0, 1, __constVal2, 8, __constVal0, 6, __constVal0, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4367	71	#line 4367 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	28	71	#line 28 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	29	71	#line 29 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	30	71		release motors_a_b_c
+4	29	72	#line 29 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	30	72	#line 30 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	31	72		add __move_7qG2_i_7qG2_000, __move_7qG2_i_7qG2_000, __constVal1
+4	30	76	#line 30 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	31	76	#line 31 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	32	76		jmp __NXC_Label_491
+4	31	78	#line 31 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	31	78	#line 31 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	32	78		set __D0move, 0
+4	32	81	#line 32 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	33	81	#pragma macro 7
+4	33	81		setout __OUT_BC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4384	104	#line 4384 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	32	104	#line 32 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	33	104	#line 33 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+4	34	104		subret __move_return
+5	36	0	#line 36 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	37	0		set __grab_7qG2_i_7qG2_000, 0
+5	36	3	#line 36 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	36	3	#line 36 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	37	3		mov __signed_stack_001grab, __grab_7qG2_i_7qG2_000
+5	36	5	#line 36 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	37	5	#line 37 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	38	5		mov __D0grab, __grab_7qG2_dost_7qG2_000
+5	37	7	#line 37 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	38	7		cmp 0, __zfgrab, __signed_stack_001grab, __D0grab
+5	37	11	#line 37 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	38	11		mov __D0grab, __zfgrab
+5	38	13	#line 38 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	39	13		brtst 4, __NXC_Label_504, __zfgrab
+5	39	16	#line 39 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	40	16		acquire motors_a_b_c
+5	39	17	#line 39 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	39	17	#line 39 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	40	17		mov __D0grab, __grab_7qG2_speed_7qG2_000
+5	40	19	#line 40 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	41	19	#pragma macro 7
+5	41	19		setout __constVal0, 2, __D0grab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4432	42	#line 4432 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	40	42	#line 40 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	40	42	#line 40 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	41	42		set __Wait_7qG2_ms_7qG2_000_inline_grab, 40
+5	40	45	#line 40 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	7921	45	#line 7921 "NXCDefs.h"
+5	7922	45		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_grab
+5	7921	48	#line 7921 "NXCDefs.h"
+5	42	48	#line 42 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	43	48	#line 43 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	44	48	#pragma macro 7
+5	44	48		setout __constVal0, 2, __constVal0, 1, __constVal2, 8, __constVal0, 6, __constVal0, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4449	71	#line 4449 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	43	71	#line 43 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	44	71	#line 44 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	45	71		release motors_a_b_c
+5	44	72	#line 44 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	45	72	#line 45 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	46	72		add __grab_7qG2_i_7qG2_000, __grab_7qG2_i_7qG2_000, __constVal1
+5	45	76	#line 45 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	46	76	#line 46 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	47	76		jmp __NXC_Label_503
+5	46	78	#line 46 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	46	78	#line 46 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	47	78		set __D0grab, 0
+5	47	81	#line 47 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	48	81	#pragma macro 7
+5	48	81		setout __constVal0, 2, __D0grab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4466	104	#line 4466 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	47	104	#line 47 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	49	104	#line 49 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+5	50	104		subret __grab_return
+6	52	0	#line 52 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	52	0	#line 52 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	53	0	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	54	0		acquire motors_a_b_c
+6	53	1	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	53	1	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	54	1		set __signed_stack_001turn_right, 100
+6	53	4	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	53	4	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	54	4		set __signed_stack_002turn_right, 0
+6	53	7	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	53	7	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	53	7	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	53	7	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	53	7	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	54	7		mul __D0turn_right, __turn_right_7qG2_angle_7qG2_000, __constVal4
+6	53	11	#line 53 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	54	11		sub __D0turn_right, __signed_stack_002turn_right, __D0turn_right
+6	54	15	#line 54 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	55	15	#pragma macro 33
+6	55	15		acquire __rotateMutex1
+6	55	16		arrbuild __rotate_ports1, __constVal1
+6	55	20		mov __rotate_power1, __signed_stack_001turn_right
+6	55	22		mov __rotate_angle1, __D0turn_right
+6	55	24		mov __rotate_turnpct1, __constVal0
+6	55	26		mov __rotate_sync1, __constVal0
+6	55	28		mov __rotate_stop1, __constVal1
+6	55	30		mov __rotate_theRVP1, __constVal32
+6	55	32		mov __rotate_theRVI1, __constVal0
+6	55	34		mov __rotate_theRVD1, __constVal96
+6	55	36		subcall __RotateMotor1, ____RotateMotor1_return
+6	55	39		release __rotateMutex1
+6	4513	40	#line 4513 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	54	40	#line 54 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	55	40	#line 55 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	56	40		release motors_a_b_c
+6	55	41	#line 55 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	56	41	#line 56 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+6	57	41		subret __turn_right_return
+7	66	0	#line 66 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	67	0		mov __unsigned_stack_001randomMovementAlgorithm, testlogic
+7	66	2	#line 66 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	67	2	#line 67 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	68	2		set __D0randomMovementAlgorithm, 0
+7	67	5	#line 67 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	68	5		cmp 4, __zfrandomMovementAlgorithm, __unsigned_stack_001randomMovementAlgorithm, __D0randomMovementAlgorithm
+7	67	9	#line 67 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	68	9		mov __D0randomMovementAlgorithm, __zfrandomMovementAlgorithm
+7	68	11	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	11		brtst 4, __NXC_Label_526, __zfrandomMovementAlgorithm
+7	68	14	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	14		mov __signed_stack_001randomMovementAlgorithm, touch
+7	68	16	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	68	16	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	16		set __D0randomMovementAlgorithm, 0
+7	68	19	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	19		cmp 4, __zfrandomMovementAlgorithm, __signed_stack_001randomMovementAlgorithm, __D0randomMovementAlgorithm
+7	68	23	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	23		mov __D0randomMovementAlgorithm, __zfrandomMovementAlgorithm
+7	68	25	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	25		brtst 4, __NXC_Label_532, __zfrandomMovementAlgorithm
+7	68	28	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	28		mov __signed_stack_001randomMovementAlgorithm, __D0randomMovementAlgorithm
+7	68	30	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	30		mov __signed_stack_002randomMovementAlgorithm, sensor
+7	68	32	#line 68 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	32	#line 69 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	70	32		set __D0randomMovementAlgorithm, 20
+7	69	35	#line 69 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	70	35		cmp 1, __zfrandomMovementAlgorithm, __signed_stack_002randomMovementAlgorithm, __D0randomMovementAlgorithm
+7	69	39	#line 69 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	69	39	#line 69 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	70	39		and __D0randomMovementAlgorithm, __signed_stack_001randomMovementAlgorithm, __zfrandomMovementAlgorithm
+7	70	43	#line 70 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	71	43		tst 5, __zfrandomMovementAlgorithm, __D0randomMovementAlgorithm
+7	70	46	#line 70 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	71	46		brtst 4, __NXC_Label_530, __zfrandomMovementAlgorithm
+7	70	49	#line 70 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	71	49		set __move_7qG2_nocms_7qG2_000, 1
+7	70	52	#line 70 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	70	52	#line 70 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	71	52		set __move_7qG2_speed_7qG2_000, 100
+7	70	55	#line 70 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	71	55	#line 71 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	72	55		subcall move, __move_return
+7	71	57	#line 71 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	72	57	#line 72 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	73	57		jmp __NXC_Label_529
+7	72	59	#line 72 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	72	59	#line 72 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	73	59		mov __signed_stack_001randomMovementAlgorithm, touch
+7	72	61	#line 72 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	73	61	#line 73 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	74	61		set __D0randomMovementAlgorithm, 1
+7	73	64	#line 73 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	74	64		cmp 4, __zfrandomMovementAlgorithm, __signed_stack_001randomMovementAlgorithm, __D0randomMovementAlgorithm
+7	73	68	#line 73 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	74	68		mov __D0randomMovementAlgorithm, __zfrandomMovementAlgorithm
+7	74	70	#line 74 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	75	70		brtst 4, __NXC_Label_539, __zfrandomMovementAlgorithm
+7	74	73	#line 74 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	75	73		set __grab_7qG2_dost_7qG2_000, 60
+7	74	76	#line 74 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	74	76	#line 74 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	75	76		set __grab_7qG2_speed_7qG2_000, 50
+7	74	79	#line 74 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	75	79	#line 75 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	76	79		subcall grab, __grab_return
+7	75	81	#line 75 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	76	81	#line 76 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	77	81		set testlogic, 1
+7	76	84	#line 76 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	76	84	#line 76 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	79	84	#line 79 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	80	84		jmp __NXC_Label_546
+7	79	86	#line 79 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	80	86		set __move_7qG2_nocms_7qG2_000, 30
+7	79	89	#line 79 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	79	89	#line 79 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	80	89		mov __move_7qG2_speed_7qG2_000, __constValNeg100
+7	79	91	#line 79 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	80	91	#line 80 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	81	91		subcall move, __move_return
+7	80	93	#line 80 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	80	93	#line 80 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	81	93		set __D0randomMovementAlgorithm, 90
+7	80	96	#line 80 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	81	96	#pragma macro 8
+7	81	96		syscall 24, __RandomArgs
+7	81	99		mov __RandomTmp, __RandomArgs.Result
+7	81	102		add __RandomTmp, __RandomArgs.Result, __constVal32768
+7	81	106		mul __RandomTmp, __RandomTmp, __D0randomMovementAlgorithm
+7	81	110		div __RandomTmp, __RandomTmp, __constVal65536
+7	4693	114	#line 4693 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	80	114	#line 80 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	80	114	#line 80 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	80	114	#line 80 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	81	114		add __turn_right_7qG2_angle_7qG2_000, __RandomTmp, __constVal90
+7	80	118	#line 80 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	81	118	#line 81 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	82	118		subcall turn_right, __turn_right_return
+7	81	120	#line 81 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	83	120	#line 83 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	83	120	#line 83 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	84	120		jmp __NXC_Label_525
+7	83	122	#line 83 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	84	122	#line 84 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	85	122		set touch, 0
+7	84	125	#line 84 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	84	125	#line 84 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	85	125	#line 85 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	86	125		set testlogic, 0
+7	85	128	#line 85 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	85	128	#line 85 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	94	128	#line 94 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+7	95	128		subret __randomMovementAlgorithm_return
+8	99	0	#line 99 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	100	0		mov __signed_stack_001findLightSource, sensor
+8	99	2	#line 99 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	100	2	#line 100 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	101	2		set __D0findLightSource, 14
+8	100	5	#line 100 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	101	5		cmp 1, __zffindLightSource, __signed_stack_001findLightSource, __D0findLightSource
+8	100	9	#line 100 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	101	9		mov __D0findLightSource, __zffindLightSource
+8	103	11	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	11		brtst 4, __NXC_Label_560, __zffindLightSource
+8	103	14	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	14		mov __signed_stack_001findLightSource, holder
+8	103	16	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	103	16	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	16		mov __D0findLightSource, light
+8	103	18	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	18		cmp 0, __zffindLightSource, __signed_stack_001findLightSource, __D0findLightSource
+8	103	22	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	22		mov __D0findLightSource, __zffindLightSource
+8	103	24	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	24		brtst 4, __NXC_Label_566, __zffindLightSource
+8	103	27	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	27		mov __signed_stack_001findLightSource, __D0findLightSource
+8	103	29	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	29		mov __signed_stack_002findLightSource, sensor
+8	103	31	#line 103 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	31	#line 104 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	105	31		set __D0findLightSource, 14
+8	104	34	#line 104 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	105	34		cmp 1, __zffindLightSource, __signed_stack_002findLightSource, __D0findLightSource
+8	104	38	#line 104 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	104	38	#line 104 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	105	38		and __D0findLightSource, __signed_stack_001findLightSource, __zffindLightSource
+8	105	42	#line 105 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	106	42		tst 5, __zffindLightSource, __D0findLightSource
+8	105	45	#line 105 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	106	45		brtst 4, __NXC_Label_564, __zffindLightSource
+8	106	48	#line 106 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	107	48		mov holder, light
+8	106	50	#line 106 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	106	50	#line 106 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	106	50	#line 106 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	107	50		set __turn_right_7qG2_angle_7qG2_000, 15
+8	106	53	#line 106 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	107	53	#line 107 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	108	53		subcall turn_right, __turn_right_return
+8	107	55	#line 107 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	108	55	#line 108 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	109	55		jmp __NXC_Label_563
+8	108	57	#line 108 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	109	57	#line 109 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	109	57	#line 109 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	109	57	#line 109 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	109	57	#line 109 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	110	57		set __move_7qG2_nocms_7qG2_000, 30
+8	109	60	#line 109 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	109	60	#line 109 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	110	60		set __move_7qG2_speed_7qG2_000, 100
+8	109	63	#line 109 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	110	63	#line 110 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	111	63		subcall move, __move_return
+8	110	65	#line 110 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	113	65	#line 113 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	114	65		jmp __NXC_Label_559
+8	113	67	#line 113 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	113	67	#line 113 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+8	114	67		subret __findLightSource_return
+9	135	0	#line 135 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	136	0		set __ultra_sonic_7qG2_ultra_7qG2_000, 0
+9	135	3	#line 135 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	136	3	#line 136 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	137	3		set __ultra_sonic_7qG2_hello_thr_7qG2_000, 12
+9	136	6	#line 136 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	137	6	#line 137 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	138	6		set __ultra_sonic_7qG2_bye_thr_7qG2_000, 20
+9	137	9	#line 137 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	139	9	#line 139 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	140	9		set __ultra_sonic_7qG2_near_7qG2_000, 0
+9	139	12	#line 139 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	141	12	#line 141 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	141	12	#line 141 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	141	12	#line 141 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	141	12	#line 141 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	3768	12	#line 3768 "NXCDefs.h"
+9	3769	12		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_ultra_sonic, __constVal3
+9	3768	14	#line 3768 "NXCDefs.h"
+9	3768	14	#line 3768 "NXCDefs.h"
+9	3769	14		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_ultra_sonic, __constVal1
+9	3758	16	#line 3758 "NXCDefs.h"
+9	3759	16		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_ultra_sonic
+9	3758	18	#line 3758 "NXCDefs.h"
+9	3758	18	#line 3758 "NXCDefs.h"
+9	3759	18		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_ultra_sonic
+9	3758	20	#line 3758 "NXCDefs.h"
+9	3759	20		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+9	3758	23	#line 3758 "NXCDefs.h"
+9	3759	23		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+9	3758	26	#line 3758 "NXCDefs.h"
+9	3759	26		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+9	3758	29	#line 3758 "NXCDefs.h"
+9	3759	29		jmp __001__001__NXC_Label_37
+9	3758	31	#line 3758 "NXCDefs.h"
+9	3759	31		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+9	3758	34	#line 3758 "NXCDefs.h"
+9	3759	34		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+9	3663	36	#line 3663 "NXCDefs.h"
+9	3664	36		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic, 0
+9	3663	40	#line 3663 "NXCDefs.h"
+9	3759	40	#line 3759 "NXCDefs.h"
+9	3759	40	#line 3759 "NXCDefs.h"
+9	3760	40		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_ultra_sonic
+9	3759	42	#line 3759 "NXCDefs.h"
+9	3759	42	#line 3759 "NXCDefs.h"
+9	3760	42		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic, 0
+9	3759	45	#line 3759 "NXCDefs.h"
+9	3676	45	#line 3676 "NXCDefs.h"
+9	3677	45		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic, 1
+9	3676	49	#line 3676 "NXCDefs.h"
+9	3760	49	#line 3760 "NXCDefs.h"
+9	3760	49	#line 3760 "NXCDefs.h"
+9	3761	49		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_ultra_sonic
+9	3760	51	#line 3760 "NXCDefs.h"
+9	3694	51	#line 3694 "NXCDefs.h"
+9	3695	51	#pragma macro 4
+9	3695	51		acquire __ResetSensorMutex
+9	3695	52		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_ultra_sonic
+9	3695	54		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+9	3695	56		release __ResetSensorMutex
+9	5094	57	#line 5094 "NXCDefs.h"
+9	3694	57	#line 3694 "NXCDefs.h"
+9	3761	57	#line 3761 "NXCDefs.h"
+9	3768	57	#line 3768 "NXCDefs.h"
+9	142	57	#line 142 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	143	57	#line 143 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	144	57		set __D0ultra_sonic, 1
+9	144	60	#line 144 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	145	60		tst 5, __zfultra_sonic, __D0ultra_sonic
+9	144	63	#line 144 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	145	63		brtst 4, __NXC_Label_614, __zfultra_sonic
+9	144	66	#line 144 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	145	66	#pragma macro 26
+9	145	66		acquire __RLSBmutex3
+9	145	67		mov __RLSReadBuf3, __RLSBbufLSWrite1
+9	145	69		set __RLSBytesCount3, 1
+9	145	72		wait2 NA, __constVal15
+9	145	75		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+9	145	77		index __D0ultra_sonic, __RLSReadBuf3, 65535
+9	145	81		release __RLSBmutex3
+9	5109	82	#line 5109 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	144	82	#line 144 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	145	82		mov __ultra_sonic_7qG2_ultra_7qG2_000, __D0ultra_sonic
+9	144	84	#line 144 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	144	84	#line 144 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	147	84	#line 147 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	148	84		mov __signed_stack_001ultra_sonic, __D0ultra_sonic
+9	147	86	#line 147 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	148	86	#line 148 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	149	86		mov __D0ultra_sonic, __ultra_sonic_7qG2_hello_thr_7qG2_000
+9	148	88	#line 148 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	149	88		cmp 2, __zfultra_sonic, __signed_stack_001ultra_sonic, __D0ultra_sonic
+9	148	92	#line 148 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	149	92		mov __D0ultra_sonic, __zfultra_sonic
+9	149	94	#line 149 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	150	94		brtst 4, __NXC_Label_621, __zfultra_sonic
+9	150	97	#line 150 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	150	97	#line 150 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	151	97		not __DU0ultra_sonic, __ultra_sonic_7qG2_near_7qG2_000
+9	151	100	#line 151 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	152	100		tst 5, __zfultra_sonic, __DU0ultra_sonic
+9	151	103	#line 151 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	152	103		brtst 4, __NXC_Label_624, __zfultra_sonic
+9	151	106	#line 151 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	152	106		set __signed_stack_001ultra_sonic, 0
+9	151	109	#line 151 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	151	109	#line 151 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	152	109		set __signed_stack_002ultra_sonic, 40
+9	151	112	#line 151 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	151	112	#line 151 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	152	112		strcat __strbufultra_sonic, __constStr0009
+9	152	116	#line 152 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	116		acquire __TextOutMutex
+9	152	117	#line 152 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	117		mov __TextOutArgs.Location.X, __signed_stack_001ultra_sonic
+9	152	120	#line 152 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	120		mov __TextOutArgs.Location.Y, __signed_stack_002ultra_sonic
+9	152	123	#line 152 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	123		set __TextOutArgs.Options, 0
+9	152	126	#line 152 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	126		mov __TextOutArgs.Text, __strbufultra_sonic
+9	152	128	#line 152 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	128		syscall 13, __TextOutArgs
+9	152	131	#line 152 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	131		mov __D0ultra_sonic, __TextOutArgs.Result
+9	152	134	#line 152 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	134		release __TextOutMutex
+9	152	135	#line 152 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	135	#line 153 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	154	135		mov sensor, __ultra_sonic_7qG2_ultra_7qG2_000
+9	153	137	#line 153 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	153	137	#line 153 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	154	137	#line 154 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	155	137		set __ultra_sonic_7qG2_near_7qG2_000, 1
+9	154	140	#line 154 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	154	140	#line 154 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	156	140	#line 156 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	156	140	#line 156 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	157	140		jmp __NXC_Label_633
+9	156	142	#line 156 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	157	142		mov __signed_stack_001ultra_sonic, __ultra_sonic_7qG2_ultra_7qG2_000
+9	156	144	#line 156 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	157	144	#line 157 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	158	144		mov __D0ultra_sonic, __ultra_sonic_7qG2_bye_thr_7qG2_000
+9	157	146	#line 157 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	158	146		cmp 1, __zfultra_sonic, __signed_stack_001ultra_sonic, __D0ultra_sonic
+9	157	150	#line 157 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	158	150		mov __D0ultra_sonic, __zfultra_sonic
+9	158	152	#line 158 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	159	152		brtst 4, __NXC_Label_636, __zfultra_sonic
+9	159	155	#line 159 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	160	155		mov __DU0ultra_sonic, __ultra_sonic_7qG2_near_7qG2_000
+9	160	157	#line 160 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	161	157		tst 5, __zfultra_sonic, __DU0ultra_sonic
+9	160	160	#line 160 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	161	160		brtst 4, __NXC_Label_639, __zfultra_sonic
+9	160	163	#line 160 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	161	163		set __signed_stack_001ultra_sonic, 0
+9	160	166	#line 160 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	160	166	#line 160 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	161	166		set __signed_stack_002ultra_sonic, 40
+9	160	169	#line 160 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	160	169	#line 160 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	161	169		strcat __strbufultra_sonic, __constStr0010
+9	161	173	#line 161 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	173		acquire __TextOutMutex
+9	161	174	#line 161 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	174		mov __TextOutArgs.Location.X, __signed_stack_001ultra_sonic
+9	161	177	#line 161 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	177		mov __TextOutArgs.Location.Y, __signed_stack_002ultra_sonic
+9	161	180	#line 161 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	180		set __TextOutArgs.Options, 0
+9	161	183	#line 161 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	183		mov __TextOutArgs.Text, __strbufultra_sonic
+9	161	185	#line 161 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	185		syscall 13, __TextOutArgs
+9	161	188	#line 161 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	188		mov __D0ultra_sonic, __TextOutArgs.Result
+9	161	191	#line 161 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	191		release __TextOutMutex
+9	161	192	#line 161 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	192	#line 162 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	163	192		mov sensor, __ultra_sonic_7qG2_ultra_7qG2_000
+9	162	194	#line 162 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	162	194	#line 162 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	163	194	#line 163 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	164	194		set __ultra_sonic_7qG2_near_7qG2_000, 0
+9	163	197	#line 163 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	163	197	#line 163 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	165	197	#line 165 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	165	197	#line 165 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	166	197		jmp __NXC_Label_648
+9	166	199	#line 166 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	167	199		set __ultra_sonic_7qG2_ultra_7qG2_000, 0
+9	166	202	#line 166 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	166	202	#line 166 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	167	202		mov __D0ultra_sonic, __constVal0
+9	167	204	#line 167 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	168	204		tst 5, __zfultra_sonic, __D0ultra_sonic
+9	167	207	#line 167 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	168	207		brtst 4, __NXC_Label_653, __zfultra_sonic
+9	168	210	#line 168 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	169	210		mov __DU0ultra_sonic, __ultra_sonic_7qG2_near_7qG2_000
+9	169	212	#line 169 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	170	212		tst 5, __zfultra_sonic, __DU0ultra_sonic
+9	169	215	#line 169 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	170	215		brtst 4, __NXC_Label_656, __zfultra_sonic
+9	169	218	#line 169 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	170	218		set __signed_stack_001ultra_sonic, 0
+9	169	221	#line 169 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	169	221	#line 169 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	170	221		set __signed_stack_002ultra_sonic, 40
+9	169	224	#line 169 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	169	224	#line 169 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	170	224		strcat __strbufultra_sonic, __constStr0011
+9	170	228	#line 170 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	228		acquire __TextOutMutex
+9	170	229	#line 170 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	229		mov __TextOutArgs.Location.X, __signed_stack_001ultra_sonic
+9	170	232	#line 170 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	232		mov __TextOutArgs.Location.Y, __signed_stack_002ultra_sonic
+9	170	235	#line 170 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	235		set __TextOutArgs.Options, 0
+9	170	238	#line 170 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	238		mov __TextOutArgs.Text, __strbufultra_sonic
+9	170	240	#line 170 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	240		syscall 13, __TextOutArgs
+9	170	243	#line 170 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	243		mov __D0ultra_sonic, __TextOutArgs.Result
+9	170	246	#line 170 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	246		release __TextOutMutex
+9	170	247	#line 170 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	247	#line 171 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	172	247		mov sensor, __ultra_sonic_7qG2_ultra_7qG2_000
+9	171	249	#line 171 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	171	249	#line 171 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	172	249	#line 172 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	173	249		set __ultra_sonic_7qG2_near_7qG2_000, 0
+9	172	252	#line 172 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	172	252	#line 172 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	177	252	#line 177 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	177	252	#line 177 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	177	252	#line 177 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	177	252	#line 177 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	177	252	#line 177 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	178	252		set __Wait_7qG2_ms_7qG2_000_inline_ultra_sonic, 25
+9	177	255	#line 177 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	7921	255	#line 7921 "NXCDefs.h"
+9	7922	255		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_ultra_sonic
+9	7921	258	#line 7921 "NXCDefs.h"
+9	178	258	#line 178 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	180	258	#line 180 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	181	258		jmp __NXC_Label_613
+9	180	260	#line 180 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+9	181	260		exit -1, -1
+10	183	0	#line 183 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	183	0	#line 183 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	184	0	#line 184 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	185	0		set __SetSensorTouch_7qG2_port_7qG2_000_inline_touch_sensor, 2
+10	184	3	#line 184 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	3718	3	#line 3718 "NXCDefs.h"
+10	3719	3	#pragma macro 6
+10	3719	3		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_touch_sensor, 0
+10	3719	7		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_touch_sensor, 1
+10	3719	11		acquire __ResetSensorMutex
+10	3719	12		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_touch_sensor
+10	3719	14		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+10	3719	16		release __ResetSensorMutex
+10	5388	17	#line 5388 "NXCDefs.h"
+10	3718	17	#line 3718 "NXCDefs.h"
+10	185	17	#line 185 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	185	17	#line 185 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	186	17		set __D0touch_sensor, 1
+10	186	20	#line 186 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	187	20		tst 5, __zftouch_sensor, __D0touch_sensor
+10	186	23	#line 186 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	187	23		brtst 4, __NXC_Label_670, __zftouch_sensor
+10	186	26	#line 186 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	187	26	#pragma macro 12
+10	187	26		acquire __HTMplexMutex
+10	187	27		getin __HTMplexRaw, __constVal2, 2
+10	187	31		mul __HTMplexScaled, __HTMplexRaw, __constVal339
+10	187	35		sub __HTMplexScaled, __constVal346797, __HTMplexScaled
+10	187	39		div __HTMplexScaled, __HTMplexScaled, __HTMplexRaw
+10	187	43		add __HTMplexScaled, __HTMplexScaled, __constVal5
+10	187	47		div __HTMplexScaled, __HTMplexScaled, __constVal10
+10	187	51		and __touch_sensor_7qG2_t1_7qG2_000, __HTMplexScaled, __constVal1
+10	187	55		release __HTMplexMutex
+10	5401	56	#line 5401 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	186	56	#line 186 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	186	56	#line 186 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	188	56	#line 188 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	189	56		mov __DU0touch_sensor, __touch_sensor_7qG2_t1_7qG2_000
+10	188	58	#line 188 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	189	58		tst 5, __zftouch_sensor, __DU0touch_sensor
+10	188	61	#line 188 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	189	61		brtst 4, __NXC_Label_675, __zftouch_sensor
+10	189	64	#line 189 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	190	64		set touch, 1
+10	189	67	#line 189 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	189	67	#line 189 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	190	67	#line 190 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	191	67		jmp __NXC_Label_678
+10	192	69	#line 192 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	193	69		set touch, 0
+10	192	72	#line 192 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	192	72	#line 192 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	192	72	#line 192 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	194	72	#line 194 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	195	72		jmp __NXC_Label_669
+10	194	74	#line 194 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+10	195	74		exit -1, -1
+11	203	0	#line 203 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	203	0	#line 203 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	203	0	#line 203 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	204	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_light_sensor, 1
+11	203	3	#line 203 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	204	3	#line 204 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	205	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_light_sensor, __constVal1
+11	3729	5	#line 3729 "NXCDefs.h"
+11	3730	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_light_sensor, __SetSensorLight_7qG2_port_7qG2_000_inline_light_sensor
+11	3729	7	#line 3729 "NXCDefs.h"
+11	3729	7	#line 3729 "NXCDefs.h"
+11	3730	7		mov __DU0SetSensorLight_inline_light_sensor, __SetSensorLight_7qG2_bActive_7qG2_000_inline_light_sensor
+11	3729	9	#line 3729 "NXCDefs.h"
+11	3730	9		tst 5, __zfSetSensorLight_inline_light_sensor, __DU0SetSensorLight_inline_light_sensor
+11	3729	12	#line 3729 "NXCDefs.h"
+11	3730	12		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_light_sensor
+11	3729	15	#line 3729 "NXCDefs.h"
+11	3730	15		set __D0SetSensorLight_inline_light_sensor, 5
+11	3729	18	#line 3729 "NXCDefs.h"
+11	3730	18		jmp __001__NXC_Label_5
+11	3729	20	#line 3729 "NXCDefs.h"
+11	3730	20		set __D0SetSensorLight_inline_light_sensor, 6
+11	3729	23	#line 3729 "NXCDefs.h"
+11	3730	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_light_sensor, __D0SetSensorLight_inline_light_sensor
+11	3663	25	#line 3663 "NXCDefs.h"
+11	3664	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_light_sensor, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_light_sensor, 0
+11	3663	29	#line 3663 "NXCDefs.h"
+11	3730	29	#line 3730 "NXCDefs.h"
+11	3730	29	#line 3730 "NXCDefs.h"
+11	3731	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_light_sensor, __SetSensorLight_7qG2_port_7qG2_000_inline_light_sensor
+11	3730	31	#line 3730 "NXCDefs.h"
+11	3730	31	#line 3730 "NXCDefs.h"
+11	3731	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_light_sensor, 128
+11	3730	34	#line 3730 "NXCDefs.h"
+11	3676	34	#line 3676 "NXCDefs.h"
+11	3677	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_light_sensor, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_light_sensor, 1
+11	3676	38	#line 3676 "NXCDefs.h"
+11	3731	38	#line 3731 "NXCDefs.h"
+11	3731	38	#line 3731 "NXCDefs.h"
+11	3732	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_light_sensor, __SetSensorLight_7qG2_port_7qG2_000_inline_light_sensor
+11	3731	40	#line 3731 "NXCDefs.h"
+11	3694	40	#line 3694 "NXCDefs.h"
+11	3695	40	#pragma macro 4
+11	3695	40		acquire __ResetSensorMutex
+11	3695	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_light_sensor
+11	3695	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+11	3695	45		release __ResetSensorMutex
+11	5549	46	#line 5549 "NXCDefs.h"
+11	3694	46	#line 3694 "NXCDefs.h"
+11	3732	46	#line 3732 "NXCDefs.h"
+11	204	46	#line 204 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	205	46	#line 205 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	206	46		set __D0light_sensor, 1
+11	207	49	#line 207 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	208	49		tst 5, __zflight_sensor, __D0light_sensor
+11	207	52	#line 207 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	208	52		brtst 4, __NXC_Label_686, __zflight_sensor
+11	207	55	#line 207 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	208	55		getin light, __constVal1, 4
+11	207	59	#line 207 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	207	59	#line 207 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	207	59	#line 207 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	212	59	#line 212 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	213	59		jmp __NXC_Label_685
+11	212	61	#line 212 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+11	213	61		exit -1, -1
+12	215	0	#line 215 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	215	0	#line 215 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	216	0	#line 216 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	217	0		set __D0RunMainTask, 1
+12	217	3	#line 217 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	218	3		tst 5, __zfRunMainTask, __D0RunMainTask
+12	217	6	#line 217 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	218	6		brtst 4, __NXC_Label_692, __zfRunMainTask
+12	218	9	#line 218 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	219	9		subcall randomMovementAlgorithm, __randomMovementAlgorithm_return
+12	218	11	#line 218 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	219	11	#line 219 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	220	11		subcall findLightSource, __findLightSource_return
+12	219	13	#line 219 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	219	13	#line 219 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	220	13		set __move_7qG2_nocms_7qG2_000, 10
+12	219	16	#line 219 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	219	16	#line 219 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	220	16		mov __move_7qG2_speed_7qG2_000, __constValNeg100
+12	219	18	#line 219 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	220	18	#line 220 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	221	18		subcall move, __move_return
+12	220	20	#line 220 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	220	20	#line 220 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	221	20		set __grab_7qG2_dost_7qG2_000, 200
+12	220	23	#line 220 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	220	23	#line 220 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	221	23		mov __grab_7qG2_speed_7qG2_000, __constValNeg50
+12	220	25	#line 220 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	221	25	#line 221 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	222	25		subcall grab, __grab_return
+12	221	27	#line 221 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	221	27	#line 221 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	222	27		set __turn_right_7qG2_angle_7qG2_000, 180
+12	221	30	#line 221 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	222	30	#line 222 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	223	30		subcall turn_right, __turn_right_return
+12	222	32	#line 222 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	222	32	#line 222 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	223	32		set __move_7qG2_nocms_7qG2_000, 25
+12	222	35	#line 222 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	222	35	#line 222 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	223	35		set __move_7qG2_speed_7qG2_000, 100
+12	222	38	#line 222 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	223	38	#line 223 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	224	38		subcall move, __move_return
+12	223	40	#line 223 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	235	40	#line 235 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	236	40		jmp __NXC_Label_691
+12	235	42	#line 235 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+12	236	42		exit -1, -1
+13	236	0	#line 236 "C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc"
+13	237	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+1	__RotateMotor1	5	NXTDefs.h
+2	__ResetSensorSubroutine	174	NXTDefs.h
+3	__ReadLSBytes3	187	NXTDefs.h
+4	move	272	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+5	grab	378	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+6	turn_right	484	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+7	randomMovementAlgorithm	527	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+8	findLightSource	657	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+9	ultra_sonic	726	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+10	touch_sensor	989	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+11	light_sensor	1066	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+12	RunMainTask	1130	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
+13	__initialize_global_data	1175	C:\Users\Stevie\Desktop\Drexel 2013-2014\ENGR 102\perm.nxc
